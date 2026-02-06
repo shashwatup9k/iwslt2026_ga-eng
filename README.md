@@ -3,7 +3,7 @@
 # Introduction
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO ``ga`` code.
 
-The IWSLT 2025 participants may obtain the Irish-English speech translation data from [here](https://github.com/shashwatup9k/iwslt2025_ga-en). The participants may also obtain following synthetic data: [Wikimedia-Speech-Irish](https://huggingface.co/datasets/ymoslem/Wikimedia-Speech-Irish), [Tatoeba](https://huggingface.co/datasets/ymoslem/Tatoeba-Speech-Irish), [EUbookshop](https://huggingface.co/datasets/ymoslem/EUbookshop-Speech-Irish). The audio data consists of the news domain, [common voice](https://commonvoice.mozilla.org/en), [Idlak](https://github.com/Idlak/Living-Audio-Dataset), and books. This corpus consists of approximately 206 hours (including synthetic data) of audio speech data and translations into English text.
+The IWSLT 2026 participants may obtain the Irish-English speech translation data from [here](https://github.com/shashwatup9k/iwslt2026_ga-en) and Irish-English IWSLT 2025 test data at [](https://github.com/shashwatup9k/iwslt2025_ga-eng/tree/main/test-2025). The participants may also obtain following synthetic data: [Wikimedia-Speech-Irish](https://huggingface.co/datasets/ymoslem/Wikimedia-Speech-Irish), [Tatoeba](https://huggingface.co/datasets/ymoslem/Tatoeba-Speech-Irish), [EUbookshop](https://huggingface.co/datasets/ymoslem/EUbookshop-Speech-Irish). The audio data consists of the news domain, [common voice](https://commonvoice.mozilla.org/en), [Idlak](https://github.com/Idlak/Living-Audio-Dataset), and books. This corpus consists of approximately 206 hours (including synthetic data) of audio speech data and translations into English text.
 
 We point participants to additional Irish pre-trained models (the models are trained on a common voice dataset), parallel and monolingual corpora from here:
 
@@ -16,7 +16,7 @@ We point participants to additional Irish pre-trained models (the models are tra
 ```
 ga-eng-iwslt2026/
 ├─ data/
-│  ├─ IWSLT-2025/
+│  ├─ IWSLT-2023, 2024 and 2025/
 │  	├─ train/
 │     	   └─ stamped.tsv
 │     	└─ txt/
@@ -37,11 +37,16 @@ ga-eng-iwslt2026/
 │     	   └─ txt/
 │           └─ test.eng
 │     	   └─ wav
-│  ├─ train-2025 (Synthetic Data)/
-│     └─ Wikimedia-Speech-Irish
-│     └─ Tatoeba
-│     └─ EUbookshop
-│  ├─ test-2025 (TBD)/
+│  	├─ test-2025/
+│     	   └─ stamped.tsv
+│     	   └─ txt/
+│           └─ test.eng
+│     	   └─ wav
+│  	├─ train-2025 (Synthetic Data)/
+│     		└─ Wikimedia-Speech-Irish
+│     		└─ Tatoeba
+│     		└─ EUbookshop
+│  ├─ test-2026 (TBD)/
 │     └─ stamped.tsv
 │     └─ wav/
 ├─ LICENSE.md
@@ -56,7 +61,7 @@ The latest data statistics are presented below:
 │IWSLT-2023 & 2024 Irish↔English (dev)   │  1120       │  1120           		│
 │IWSLT-2023 & 2024 Irish↔English (test)  │  961        │  961        			│
 │Synthetic data                          │   -         |  86324                           |
-│Irish↔English (test-2025)  		│  770        │  770				│
+│Irish↔English (test-2026)  		│  -        │  -				│
 ```
 
 # License
@@ -295,11 +300,11 @@ We would like to thank [Taighde Éireann – Research Ireland](https://www.resea
 </pre>
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) =====================================================
-Data available since: Irish-English Speech Translation Shared Task@IWSLT-2025
+Data available since: Irish-English Speech Translation Shared Task@IWSLT-2026
 License: CC BY-NC-SA 4.0
 =======
 Includes text/audio: yes
-Shared Task Organisers 2025: Ojha, Atul Kr.; Moslem, Yasmin; McCrae, John P.
+Shared Task Organisers 2026: Ojha, Atul Kr.; Moslem, Yasmin; McCrae, John P.
 Contact: atulkumar.ojha@insight-centre.org, shashwatup9k@gmail.com
 Contributor/&copy;holder: Insight Research Ireland Centre for Data Analytics, Data Science Institute, University of Galway
 =======================================================================================================
