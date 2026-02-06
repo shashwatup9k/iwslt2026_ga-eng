@@ -1,4 +1,4 @@
-# Irish-English Speech Translation Shared Task Data@IWSLT-2025
+# Irish-English Speech Translation Shared Task Data@IWSLT-2026
 
 # Introduction
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO ``ga`` code.
@@ -12,16 +12,11 @@ We point participants to additional Irish pre-trained models (the models are tra
 - [Irish-English and English-Irish parallel COVID dataset](https://github.com/loresmt/loresmt-2021)
 - [Whisper Medium GA-EN Speech Translation](https://huggingface.co/ymoslem/whisper-medium-ga2en-v6.3.0-4k-r)
 
-**NB!** The training dataset has duplicate segments due to gender and age variety. The IWSLT 2025 test set will be available on April 01, 2025.
-
-[April 2025 Update:] THE TEST DATA FOR 2025 IS NOW AVAILABLE [HERE](https://github.com/shashwatup9k/iwslt2025_ga-eng/tree/main/test-2025)
-
-
 ## Structure of the ` Shared Task data`:
 ```
-ga-eng-iwslt2025/
+ga-eng-iwslt2026/
 ├─ data/
-│  ├─ IWSLT-2023 and 2024/
+│  ├─ IWSLT-2025/
 │  	├─ train/
 │     	   └─ stamped.tsv
 │     	└─ txt/
@@ -309,3 +304,4 @@ Contact: atulkumar.ojha@insight-centre.org, shashwatup9k@gmail.com
 Contributor/&copy;holder: Insight Research Ireland Centre for Data Analytics, Data Science Institute, University of Galway
 =======================================================================================================
 </pre>
+
