@@ -12,6 +12,9 @@ We point participants to additional Irish pre-trained models (the models are tra
 - [Irish-English and English-Irish parallel COVID dataset](https://github.com/loresmt/loresmt-2021)
 - [Whisper Medium GA-EN Speech Translation](https://huggingface.co/ymoslem/whisper-medium-ga2en-v6.3.0-4k-r)
 
+[April 2026 Update:] THE TEST DATA FOR 2026 IS NOW AVAILABLE [HERE](https://github.com/shashwatup9k/iwslt2026_ga-eng/tree/main/test-2026)
+
+
 ## Structure of the ` Shared Task data`:
 ```
 ga-eng-iwslt2026/
